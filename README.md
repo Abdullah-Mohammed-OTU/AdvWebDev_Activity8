@@ -10,7 +10,7 @@
 ## Issues
 I had some issues with the implementation: 
 - the Linting tests failed the first time, I had to modify both app.py and test_app.py file to pass the tests
-- the CodeQL failed multiple times. I had to allow the github actions to both read and write in the settings for it to work
+- the CodeQL failed multiple times. I had to allow the github actions to both read and write in the settings for it to work. I also had to change the version to v2 because it kept giving me errors that v1 was depracated
 - In the test.yml file, I had to change the python-version: [3.10, 3.11, 3.12] because it wasn't working. All I had to do was wrap the floats in quotes for it to work
 
 GitHub Repository Link: https://github.com/Abdullah-Mohammed-OTU/AdvWebDev_Activity8
